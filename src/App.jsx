@@ -1,9 +1,8 @@
+import React from "react";
+import SyntheraWebsite from "./SyntheraWebsite";
+
 function App() {
-  return (
-    <div style={{ color: "black", fontSize: "24px" }}>
-      Hello from Synthera 👋
-    </div>
-  );
+  return <SyntheraWebsite />;
 }
 
 export default App;
