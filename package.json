@@ -19,4 +19,8 @@
     "vite": "^4.0.0",
     "gh-pages": "^5.0.0"
   }
+  "dependencies": {
+  "lucide-react": "^0.321.0", // or the latest version
+  ...
+  }
 }
