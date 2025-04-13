@@ -1,4 +1,3 @@
-
 import SyntheraWebsite from './SyntheraWebsite';
 function App() {
   return <SyntheraWebsite />;
