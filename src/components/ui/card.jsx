@@ -1,3 +1,8 @@
+
 export function Card({ children }) {
-  return <div style={{ border: '1px solid #ccc', padding: '1rem', borderRadius: '8px' }}>{children}</div>
+  return <div className="rounded-xl shadow-md p-4 bg-white">{children}</div>;
+}
+
+export function CardContent({ children }) {
+  return <div className="p-2">{children}</div>;
 }
