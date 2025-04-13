@@ -4,10 +4,13 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/synthera-beta/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
+  build: {
+    outDir: 'dist', // Vercel expects the build output to be in 'dist'
+  },
+  base: '/', // Use '/' if you're deploying to root domain; change if needed
 })
